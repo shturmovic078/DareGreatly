@@ -16,7 +16,7 @@ browser = Watir::Browser.new(:remote,
 
 browser.goto "http://www.daregreatly.com"
 
-browser.button(:name => 'btnG').click
+
 
 puts browser.title
 browser.quit
